@@ -53,18 +53,21 @@ Finalmente, se utiliza **Play with Docker (PWD)**, una plataforma online que per
 **Paso 1:** Verificación de la versión de Docker y descarga de la imagen oficial de Nginx .
 
 Figura 1. Comando **"docker  -v y pull"**.
+
 <img width="582" alt="paso1" src="https://github.com/user-attachments/assets/1ef4bb3b-136a-4d01-b03b-7003eabd3209" />
 
 
 **Paso 2:** Creamos el primer contenedor Nginx (`nginx1`) ejecutando el siguiente comando para crear el contenedor y exponerlo en el puerto 8089.
 
 Figura 2. Comando **"docker run "**.
+
 <img width="461" alt="paso2" src="https://github.com/user-attachments/assets/9b652a9f-a7a9-46f9-8cf7-f487ea492749" />
 
 
 **Paso 3:** Copiamos el archivo `index.html` del contenedor `nginx1` al sistema anfitrión. Para copiarlo desde el contenedor `nginx1`, se utilizó el siguiente comando:
 
 Figura 3. Comando **"docker cp"**..
+
 <img width="466" alt="paso4" src="https://github.com/user-attachments/assets/9a27bca3-5dae-495e-a289-8f777c17a360" />
 
 **Paso 4:** Se modificó el archivo `index1.html` con información institucional usando un editor como `vi`
