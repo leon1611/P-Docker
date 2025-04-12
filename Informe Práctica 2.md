@@ -73,6 +73,7 @@ Figura 3. Comando **"docker cp"**..
 **Paso 4:** Se modificó el archivo `index1.html` con información institucional usando un editor como `vi`
 
 Figura 4. Comando **"vi"**..
+
 <img width="282" alt="paso5" src="https://github.com/user-attachments/assets/c09f2109-5302-43c4-801a-d9ab5124971c" />
 
 <img width="803" alt="paso6" src="https://github.com/user-attachments/assets/d5c66713-04b3-476e-87dc-6b2024b3ed15" />
@@ -80,27 +81,32 @@ Figura 4. Comando **"vi"**..
 **Paso 5:** Una vez editado, se copió el archivo actualizado de nuevo al contenedor `nginx1` con el siguiente comando:
 
 Figura 5. Comando **"docker cp index1.html "**.
+
 <img width="489" alt="paso7" src="https://github.com/user-attachments/assets/ed2e028a-6722-4a7c-aebe-d2c6acab84c5" />
 
 **Paso 6:** Se ejecuto el puerto 8089 para verificar la modificación del html con la información institucional.
 
 Figura 6. Ventana Navegador **"Brave"**.
+
 <img width="779" alt="paso8" src="https://github.com/user-attachments/assets/c6fa8981-5cff-46c4-95ed-975618a42cb6" />
 
 **Paso 7:** Creamos el segundo contenedor Nginx (`nginx2`) ejecutando el siguiente comando para crearlo y exponerlo en el puerto 8090
 
 Figura 7. Comando **"docker run "**.
+
 <img width="466" alt="paso3" src="https://github.com/user-attachments/assets/83e2bc15-a2ae-451e-af9c-fad3009ef0c5" />
 
 **Paso 8:** Copiamos el archivo `index.html` del contenedor `nginx2` al sistema. Para copiarlo desde el contenedor , se utilizó el siguiente comando:
 
 Figura 8. Comando **"docker cp "**.
+
 <img width="501" alt="paso9" src="https://github.com/user-attachments/assets/35e9bde5-6711-4062-abfb-d3d591de290e" />
 
 
 **Paso 9:** Se modificó el archivo `index2.html` con información personal del estudiante usando un editor como `vi`
 
 Figura 9. Comando **"vi"**.
+
 <img width="255" alt="paso" src="https://github.com/user-attachments/assets/bdf46914-d0cc-4115-8d3c-581e30868289" />
 
 <img width="638" alt="paso10" src="https://github.com/user-attachments/assets/60afeecb-3857-43a4-b980-0ea708fdb26a" />
@@ -108,11 +114,13 @@ Figura 9. Comando **"vi"**.
 **Paso 10:** Editado correctamente se copia el archivo actualizado de nuevo al contenedor `nginx2` con el siguiente comando:
 
 Figura 10. Comando **"cp"**.
+
 <img width="498" alt="paso11" src="https://github.com/user-attachments/assets/b5cdbfb5-c557-4867-b252-d2718403b4df" />
 
 **Paso 11:** Se ejecuta el puerto 8090 para verificar la modificación del html con la información personal.
 
 Figura 11.  Segunda Ventana Navegador  **"Brave"**.
+
 <img width="884" alt="paso12" src="https://github.com/user-attachments/assets/40a93781-38d7-4b79-9109-d745ca3e14e6" />
 
 ## 9. Resultados esperados:
