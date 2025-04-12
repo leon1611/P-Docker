@@ -53,57 +53,65 @@ Finalmente, se utiliza **Play with Docker (PWD)**, una plataforma online que per
 **Paso 1:** Verificación de la versión de Docker y descarga de la imagen oficial de Nginx .
 
 Figura 1. Comando **"docker  -v y pull"**.
-![[paso1.png]]
+<img width="582" alt="paso1" src="https://github.com/user-attachments/assets/1ef4bb3b-136a-4d01-b03b-7003eabd3209" />
+
 
 **Paso 2:** Creamos el primer contenedor Nginx (`nginx1`) ejecutando el siguiente comando para crear el contenedor y exponerlo en el puerto 8089.
 
 Figura 2. Comando **"docker run "**.
-![[paso2.png]]
+<img width="461" alt="paso2" src="https://github.com/user-attachments/assets/9b652a9f-a7a9-46f9-8cf7-f487ea492749" />
+
 
 **Paso 3:** Copiamos el archivo `index.html` del contenedor `nginx1` al sistema anfitrión. Para copiarlo desde el contenedor `nginx1`, se utilizó el siguiente comando:
 
 Figura 3. Comando **"docker cp"**..
-![[Practica Docker/paso4.png]]
+<img width="466" alt="paso4" src="https://github.com/user-attachments/assets/9a27bca3-5dae-495e-a289-8f777c17a360" />
 
 **Paso 4:** Se modificó el archivo `index1.html` con información institucional usando un editor como `vi`
 
 Figura 4. Comando **"vi"**..
-![[Practica Docker/paso5.png]]
-![[paso6.png]]
+<img width="282" alt="paso5" src="https://github.com/user-attachments/assets/c09f2109-5302-43c4-801a-d9ab5124971c" />
+
+<img width="803" alt="paso6" src="https://github.com/user-attachments/assets/d5c66713-04b3-476e-87dc-6b2024b3ed15" />
+
 **Paso 5:** Una vez editado, se copió el archivo actualizado de nuevo al contenedor `nginx1` con el siguiente comando:
 
 Figura 5. Comando **"docker cp index1.html "**.
-![[paso7.png]]
+<img width="489" alt="paso7" src="https://github.com/user-attachments/assets/ed2e028a-6722-4a7c-aebe-d2c6acab84c5" />
 
 **Paso 6:** Se ejecuto el puerto 8089 para verificar la modificación del html con la información institucional.
 
 Figura 6. Ventana Navegador **"Brave"**.
-![[paso8.png]]
+<img width="779" alt="paso8" src="https://github.com/user-attachments/assets/c6fa8981-5cff-46c4-95ed-975618a42cb6" />
 
 **Paso 7:** Creamos el segundo contenedor Nginx (`nginx2`) ejecutando el siguiente comando para crearlo y exponerlo en el puerto 8090
 
 Figura 7. Comando **"docker run "**.
-![[paso3.png]]
+<img width="466" alt="paso3" src="https://github.com/user-attachments/assets/83e2bc15-a2ae-451e-af9c-fad3009ef0c5" />
 
 **Paso 8:** Copiamos el archivo `index.html` del contenedor `nginx2` al sistema. Para copiarlo desde el contenedor , se utilizó el siguiente comando:
 
 Figura 8. Comando **"docker cp "**.
-![[paso9.png]]
+<img width="501" alt="paso9" src="https://github.com/user-attachments/assets/35e9bde5-6711-4062-abfb-d3d591de290e" />
+
 
 **Paso 9:** Se modificó el archivo `index2.html` con información personal del estudiante usando un editor como `vi`
 
 Figura 9. Comando **"vi"**.
-![[paso.png]]
-![[Practica Docker/paso10.png]]
+<img width="255" alt="paso" src="https://github.com/user-attachments/assets/bdf46914-d0cc-4115-8d3c-581e30868289" />
+
+<img width="638" alt="paso10" src="https://github.com/user-attachments/assets/60afeecb-3857-43a4-b980-0ea708fdb26a" />
+
 **Paso 10:** Editado correctamente se copia el archivo actualizado de nuevo al contenedor `nginx2` con el siguiente comando:
 
 Figura 10. Comando **"cp"**.
-![[paso11.png]]
+<img width="498" alt="paso11" src="https://github.com/user-attachments/assets/b5cdbfb5-c557-4867-b252-d2718403b4df" />
 
 **Paso 11:** Se ejecuta el puerto 8090 para verificar la modificación del html con la información personal.
 
 Figura 11.  Segunda Ventana Navegador  **"Brave"**.
-![[paso12.png]]
+<img width="884" alt="paso12" src="https://github.com/user-attachments/assets/40a93781-38d7-4b79-9109-d745ca3e14e6" />
+
 ## 9. Resultados esperados:
     
 La práctica me permitió ejecutar contenedores desde Docker Hub, también  a manejar el entorno **Play with Docker**, una herramienta en línea ideal para practicar sin necesidad de instalaciones locales.
@@ -114,7 +122,7 @@ El uso de **Play with Docker** facilitó la creación, modificación y gestión 
 
 En resumen, fue una práctica útil para familiarizarse con el entorno de Docker y editar contenido dentro de contenedores en un entorno seguro y accesible en línea
 
-![[final.png]]
+<img width="821" alt="final" src="https://github.com/user-attachments/assets/b513b858-9bc8-429a-93f8-2517835bfd7b" />
 
 ## 10. Bibliografía
 
