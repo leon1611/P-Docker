@@ -109,6 +109,7 @@ Figura 9. Comando **"vi"**.
 
 <img width="255" alt="paso" src="https://github.com/user-attachments/assets/bdf46914-d0cc-4115-8d3c-581e30868289" />
 
+
 <img width="638" alt="paso10" src="https://github.com/user-attachments/assets/60afeecb-3857-43a4-b980-0ea708fdb26a" />
 
 **Paso 10:** Editado correctamente se copia el archivo actualizado de nuevo al contenedor `nginx2` con el siguiente comando:
