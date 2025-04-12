@@ -19,11 +19,11 @@ Entre los comandos utilizados se encuentran:
 
 ## 4. Conocimientos previos.
    
-Para realizar esta práctica es necesario tener conocimientos sobre **Docker**, que es una plataforma para gestionar contenedores, lo que permite ejecutar aplicaciones de manera aislada y eficiente. Según **Turnbull, J.** (2014), Docker facilita la creación y despliegue de aplicaciones, mejorando la portabilidad y escalabilidad.
+Para realizar esta práctica es necesario tener conocimientos sobre Docker, que es una plataforma para gestionar contenedores, lo que permite ejecutar aplicaciones de manera aislada y eficiente. Según **Turnbull, J.** (2014), Docker facilita la creación y despliegue de aplicaciones, mejorando la portabilidad y escalabilidad.
 
 También es importante conocer algunos comandos básicos de Linux, ya que Docker se ejecuta en este sistema. Comandos como `docker pull`, `docker run`, y `docker ps` son fundamentales para gestionar contenedores y trabajar con imágenes, como señala **Sánchez Anguix, V.** (2021).
 
-Finalmente, se utiliza **Play with Docker (PWD)**, una plataforma online que permite trabajar con Docker sin necesidad de instalarlo localmente, como menciona **Richardson, D.** (2019).
+Finalmente, se utiliza Play with Docker (PWD), una plataforma online que permite trabajar con Docker sin necesidad de instalarlo localmente, como menciona **Richardson, D.** (2019).
 
 ## 5. Objetivos a alcanzar
    
@@ -39,7 +39,7 @@ Finalmente, se utiliza **Play with Docker (PWD)**, una plataforma online que per
 - **Procesador:** 2,3 GHz Intel Core i5
 - **Memoria:** 8 GB 
 - Conexión a Internet para el material de apoyo
-- Sitio **Play with Docker ** para ejecutar los comandos
+- Sitio Play with Docker para ejecutar los comandos
 
 ## 7. Material de apoyo.
    
@@ -126,11 +126,11 @@ Figura 11.  Segunda Ventana Navegador  **"Brave"**.
 
 ## 9. Resultados esperados:
     
-La práctica me permitió ejecutar contenedores desde Docker Hub, también  a manejar el entorno **Play with Docker**, una herramienta en línea ideal para practicar sin necesidad de instalaciones locales.
+La práctica me permitió ejecutar contenedores desde Docker Hub, también  a manejar el entorno Play with Docker, una herramienta en línea ideal para practicar sin necesidad de instalaciones locales.
 
 Después de completar todos los pasos, logré levantar dos contenedores **Nginx** con puertos personalizados (8089 y 8090), uno para mostrar información institucional y otro con mis datos personales. Usé comandos para copiar el archivo `index.html` desde los contenedores hacia el entorno anfitrión, y los edité con información específica, y luego los volví a subir a su contenedor correspondiente.
 
-El uso de **Play with Docker** facilitó la creación, modificación y gestión de contenedores sin complicaciones, lo que me ayudó a entender mejor la lógica de los servicios aislados, la gestión de puertos y el manejo básico de archivos en contenedores.
+El uso de Play with Docker facilitó la creación, modificación y gestión de contenedores sin complicaciones, lo que me ayudó a entender mejor la lógica de los servicios aislados, la gestión de puertos y el manejo básico de archivos en contenedores.
 
 En resumen, fue una práctica útil para familiarizarse con el entorno de Docker y editar contenido dentro de contenedores en un entorno seguro y accesible en línea
 
